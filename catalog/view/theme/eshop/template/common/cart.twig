@@ -1,0 +1,38 @@
+<li id="cart" class="header-cart dropdown default-dropdown">
+      <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+          <div class="header-btns-icon">
+               <i class="fa fa-shopping-cart"></i>
+                    <span id="cart-total" class="qty">{{ text_items_count }}</span>
+            </div>
+           <strong class="text-uppercase">My Cart</strong>
+            <br>
+           <span>{{ text_items_currency }}</span>
+      </button>
+    <ul class="custom-menu">
+    {% if products or vouchers %}
+     <li id="shopping-cart">
+      <div class="shopping-cart-list">
+        {% for product in products %}
+          <div class="product product-widget">
+                <div class="product-thumb">
+                    {% if product.thumb %} <a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-thumbnail" /></a> {% endif %}
+                </div>
+                <div class="product-body">
+                      <h4 class="product-price">{{ product.total }} <span class="qty">x {{ product.quantity }}</span></h4>
+                      <h2 class="product-name"><a href="{{ product.href }}">{{ product.name }}</a></h2>
+                </div>
+                <button class="cancel-btn" onclick="cart.remove('{{ product.cart_id }}');" title="{{ button_remove }}"><i class="fa fa-trash"></i></button>
+          </div>
+
+        {% endfor %}  
+      </div>
+       <div class="shopping-cart-btns">
+          <a class="main-btn" href="{{ cart }}"><i class="fa-icon fa fa-shopping-cart"></i> {{ text_cart }}</a>
+          <a class="primary-btn" href="{{ checkout }}"><i class="fa-icon fa fa-arrow-circle-right"></i>{{ text_checkout }}</a>
+        </div>
+      </li>
+      {% else %}
+        <p class="text-center">{{ text_empty }}</p>
+    {% endif %}
+  </ul>
+</li>
