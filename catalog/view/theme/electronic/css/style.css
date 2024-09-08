@@ -47,6 +47,8 @@ Table OF Contents
 12 > RESPONSIVE
 ------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
 :root {
   --primary: hsl(350, 100%, 41%);
   --headers: #2B2D42;
@@ -68,7 +70,7 @@ Table OF Contents
 \*----------------------------*/
 
 body {
-  font-family: 'Mulish', 'Open Sans', sans-serif;
+  font-family: 'Vazirmatn', 'Mulish', 'Open Sans', sans-serif;
   font-weight: 400;
   color: var(--body);
 }
