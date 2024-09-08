@@ -236,7 +236,7 @@
                     <input type="hidden" name="product_id" value="{{ product_id }}" />
                   </div>
                 </div>
-                <button id="button-cart" class="add-to-cart-btn" data-loading-text="{{ text_loading }}"><i class="fa fa-shopping-cart"></i>{{ button_cart }}</button>
+                <button id="button-cartt" class="add-to-cart-btn" data-loading-text="{{ text_loading }}" onclick="window.location.href = '/opencart/redirect.php?p={{ product_id }}'"><i class="fa fa-shopping-cart"></i>{{ button_cart }}</button>
               </div>
               </div>
             </div>

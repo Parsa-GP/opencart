@@ -35,7 +35,7 @@ $_['text_error']                     = 'Error Handling';
 
 // Entry
 $_['entry_meta_title']               = 'Meta Title';
-$_['entry_meta_description']         = 'Meta Tag Description';
+$_['entry_meta_description']         = 'Instagram Link (Meta Description)';
 $_['entry_meta_keyword']             = 'Meta Tag Keywords';
 $_['entry_layout']                   = 'Default Layout';
 $_['entry_theme']                    = 'Theme';

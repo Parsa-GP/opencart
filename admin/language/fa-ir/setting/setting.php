@@ -35,7 +35,7 @@ $_['text_error']                     = 'مدیریت خطاها';
 
 // Entry
 $_['entry_meta_title']               = 'عنوان متا تگ';
-$_['entry_meta_description']         = 'توضیحات متا تگ';
+$_['entry_meta_description']         = 'لینک اینستاگرام (توضیحات تگ)';
 $_['entry_meta_keyword']             = 'واژه های کلیدی متا تگ';
 $_['entry_layout']                   = 'چیدمان پیش فرض';
 $_['entry_theme']                    = 'قالب';
