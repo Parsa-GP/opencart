@@ -1,1 +1,0 @@
-<a href="http://example.com/index.php?route=product/product&product_id=<?php echo $this->request->get["product_id"]; ?>">Your Link</a>
