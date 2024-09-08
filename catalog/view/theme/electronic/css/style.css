@@ -2342,6 +2342,10 @@ textarea.input {
   font-size: 12px;
 }
 
+.copyright a {
+  color: var(--primary);
+}
+
 .footer-payments li {
   display: inline-block;
   margin-right: 5px;
