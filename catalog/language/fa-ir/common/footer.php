@@ -14,4 +14,10 @@ $_['text_account']      = 'حساب کاربری';
 $_['text_order']        = 'تاریخچه سفارش ها';
 $_['text_wishlist']     = 'لیست دلخواه';
 $_['text_newsletter']   = 'اشتراک خبرنامه';
-$_['text_powered']      = '<a href="http://forum.opencart.com" title="انجمن پشتیبانی" target="_blank">پشتیبانی و توسعه</a> توسط <a href="http://opencart.com" title="تارنمای OpenCart" target="_blank">اپن کارت</a> <br /> %s &copy; %s';
+$_['text_powered']      = '
+توسعه دهنده تم: <a href="https://www.blogitcode.com/">BlogITCode</a> || توسعه: <a href="https://github.com/Parsa-GP">ParsaGP</a>&nbsp;<br>
+ساخته شده با <i class="fa fa-heart-o" aria-hidden="true"></i> توسط <a href="https://colorlib.com" target="_blank">Colorlib</a>
+ || 
+پشتیبانی و توسعه توسط <a href="http://opencart.com" title="تارنمای OpenCart" target="_blank">OpenCart</a> <br /> %s &copy; %s
+    
+    ';
