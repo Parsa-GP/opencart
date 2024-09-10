@@ -512,7 +512,7 @@ textarea.input {
 .header-search .input {
   width: calc(100% - 260px);
   margin-right: -4px;
-  border-radius: 40px 0px 0px 40px;
+  border-radius: 40px;
 }
 
 .header-search .search-btn {
@@ -522,7 +522,7 @@ textarea.input {
   color: #FFF;
   font-weight: 700;
   border: none;
-  border-radius: 0px 40px 40px 0px;
+  border-radius: 40px;
 }
 
 /*----------------------------*\
